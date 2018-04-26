@@ -9,7 +9,7 @@ module.exports = {
       exclude: /node_modules/,
       loader: 'babel-loader',
       query: {
-        plugins: ["transform-react-jsx"]
+        plugins: ["transform-react-jsx","babel-plugin-transform-decorators-legacy"]
       }
     }]
   }
